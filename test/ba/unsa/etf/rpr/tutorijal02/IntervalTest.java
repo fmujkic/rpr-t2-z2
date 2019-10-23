@@ -1,5 +1,5 @@
 package ba.unsa.etf.rpr.tutorijal02;
-
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class IntervalTest {
@@ -69,7 +69,7 @@ class IntervalTest {
         assertTrue(i.equals(i2));
     }
 
-    @org.junit.jupiter.api.Test
+   @org.junit.jupiter.api.Test
     void equals2() {
         Interval i = new Interval(1.1, 2.5, true, false);
         Interval i2 = new Interval(1.1, 2.5, true, true);
